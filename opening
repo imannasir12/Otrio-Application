@@ -1,0 +1,22 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+android:layout_width=&quot;365dp&quot;
+android:layout_height=&quot;549dp&quot;
+android:layout_gravity=&quot;center_horizontal&quot;
+android:background=&quot;@drawable/splash&quot;
+android:orientation=&quot;vertical&quot;&gt;
+&lt;!--Instructions Button--&gt;
+&lt;Button
+android:id=&quot;@+id/instruct&quot;
+android:layout_width=&quot;300dp&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:layout_gravity=&quot;center&quot;
+android:layout_marginTop=&quot;360dp&quot;
+android:backgroundTint=&quot;@color/black&quot;
+
+android:fontFamily=&quot;casual&quot;
+android:onClick=&quot;toInstructions&quot;
+android:text=&quot;Instructions&quot;
+android:textStyle=&quot;bold&quot; /&gt;
+&lt;!--Layout ends--&gt;
+&lt;/LinearLayout&gt;
